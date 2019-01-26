@@ -44,7 +44,7 @@ class Person {
       this.previousBackground = studentOptions.previousBackground;
       this.className = studentOptions.className;
       this.favSubjects = studentOptions.favSubjects;
-      this.grade = Math.floor(Math.random() * 100) + 1;
+      this.grade = Math.floor(Math.random() * 100) + 1;  //stretch goal 
     }
     listsSubjects(){
       for (var i = 1; i < 4; i++){
