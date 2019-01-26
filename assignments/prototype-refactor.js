@@ -66,7 +66,7 @@ Prototype Refactor
 //     return `${this.name}: took damage.`;
 //   }
 
-  class CharacterStats extends Gameobject {
+  class CharacterStats extends GameObject {
       constructor(attributes) {
           super(attributes);
           this.healthPoints = attributes.healthPoints;
